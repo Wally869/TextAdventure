@@ -1,0 +1,7 @@
+
+
+
+
+class Location(object):
+    pass
+
