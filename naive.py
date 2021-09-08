@@ -35,7 +35,6 @@ while True:  #command not in allowedCommands:
 
 
 input("The details of the room are now visible: apart from the door, you can see a boarded window, a few school tables and a locker.")
-input("You can also see a steel bar beneath one of the tables.")   # put this after looking around?  
 print("\n")  
 
 allowedCommands = ["look", "door", "window", "locker"]
@@ -65,7 +64,7 @@ while True:  #command not in allowedCommands:
         if IS_LOCKER_OPEN:
             input("There's nothing left in the locker.")
         else:
-            input("You approach the locker and try to turn the handle. If creaks a little, but the door opens just fine.")
+            input("You approach the locker and try to turn the handle. It creaks a little, but the door opens just fine.")
             input("Inside the locker, you find a key which you promptly pick up.")
             HAS_KEY = True
     elif command == "steelbar":
