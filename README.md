@@ -13,4 +13,11 @@ You wake in room, is dark. Only see door and a switch. Door is locked, can use s
 Run "python naive.py" to try the demo story.  
 
 
+## Improvements on naive.py  
+- Create a static class for state management.  
+We'll be splitting code between files so we need something cleaner than global variable declarations.  
+- Create a class for consecutive text segments.   
+Impractical and very error prone to set text like this. Better to potentially use an external data source of something  
+ 
+
 
