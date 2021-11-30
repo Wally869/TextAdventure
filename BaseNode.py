@@ -16,5 +16,6 @@ class BaseNode(object):
     def Execute(self):
         pass
     
-
+    def SetDestinationNode(self, destinationNode: 'BaseNode'):
+        self.kDestinationNode = destinationNode
 

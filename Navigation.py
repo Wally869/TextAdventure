@@ -15,7 +15,7 @@ class NavigationNode(BaseNavigationNode):
     def __init__(self, nodeName: str = "", targetNode: Union[str, BaseNode] = ""):
         super().__init__(nodeName)
         
-        if (isInstance(targetNode, BaseNavigationNode):
+        if isinstance(targetNode, BaseNavigationNode):
             self.kTargetNode = targetNode
         else:
             self.kTargetNode = NodesRecorder.Get(targetNode)

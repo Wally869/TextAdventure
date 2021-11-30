@@ -42,6 +42,7 @@ class BaseConditional(BaseNode):
             return self.kFalseNode
 
 
+
 from TextSegment import SingleTextNode
 
 state.Set("a", 4)

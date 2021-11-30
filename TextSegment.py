@@ -6,7 +6,7 @@ from BaseNode import BaseNode
 
 
 class SingleTextNode(BaseNode):
-    def __init__(self, nodeName: str == "", text: str, destinationNode: BaseNode):
+    def __init__(self, nodeName: str, text: str, destinationNode: BaseNode):
         super().__init__(nodeName)
         self.mTextElement = text
         self.mDestinationNode = destinationNode
